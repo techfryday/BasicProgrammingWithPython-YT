@@ -2,7 +2,7 @@
 
 # Defined a log function to log the exception messages into a log file
 def log(msg):
-    file = open("./Part-2/log", "a")
+    file = open("./Part-2/ExceptionHandling/log", "a")
     file.write(msg+"\n")
     file.close()
     
