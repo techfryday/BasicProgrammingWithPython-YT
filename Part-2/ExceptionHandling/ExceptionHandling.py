@@ -11,7 +11,7 @@ def log(msg):
 try:
     for i in range(1, 11):
         if i%2==0:
-            prins(i)
+            print(i)
 # If any error occurs in try block 
 # then code written inside except block will get executed
 except Exception as e:
