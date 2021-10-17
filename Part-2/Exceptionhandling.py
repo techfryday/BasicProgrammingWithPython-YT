@@ -3,11 +3,15 @@ def log(msg):
     file.write(msg)
     file.close()
 
-
 try:
-    for i in range(1,11):
+    num = int(input("Enter a number: "))
+    for i in range(1,num+1):
         if i%2==0:
             prin(i)
+except NameError as e:
+    print("CONTACT DEVELOPER")
+except ValueError as e:
+    print("INVALID VALUE GIVEN AS INPUT")
 except Exception as e:
     try:
         log(str(e))
