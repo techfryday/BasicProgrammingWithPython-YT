@@ -18,3 +18,17 @@ print(calc.add(12,34)) """
 """ # From module import components as
 from Calculator import mult as calc
 print(calc(12,23)) """
+
+# -----------------------------------------------------
+
+""" # Importing modules from packages
+from Calculations import Scientific, Simple
+print(Scientific.areaOfCircle(12)) """
+
+""" # Importing * From a package
+from Calculations import *
+print(Simple.mult(12,12)) """
+
+""" # Importing components from module withing a package
+from Calculations.Simple import add, mult
+print(mult(10,10)) """
