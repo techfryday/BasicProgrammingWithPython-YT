@@ -4,7 +4,7 @@ import pytz
 # Aware: tzinfo is available
 # Naive: tzinfo is not available
 
-dt = datetime.now()
+""" dt = datetime.now()
 print(dt)
 print(dt.tzinfo) # None i.e. Naive object
 
@@ -21,4 +21,8 @@ print(awaredt.minute)
 print(awaredt.second)
 print(awaredt.microsecond)
 print("%.0f"%awaredt.timestamp())
-print(awaredt.time())
+print(awaredt.time()) """
+
+someday = datetime(1997, 3, 19)
+print(someday.weekday())
+print(someday.isoweekday())
