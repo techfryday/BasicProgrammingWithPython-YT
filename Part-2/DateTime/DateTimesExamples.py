@@ -23,7 +23,6 @@ print(awaredt.microsecond)
 print("%.0f"%awaredt.timestamp())
 print(awaredt.time()) """
 
-
 someday = datetime(1997, 3, 19)
 print(someday.weekday())
 print(someday.isoweekday())
