@@ -23,6 +23,12 @@ print(awaredt.microsecond)
 print("%.0f"%awaredt.timestamp())
 print(awaredt.time()) """
 
-someday = datetime(1997, 3, 19)
-print(someday.weekday())
-print(someday.isoweekday())
+# datetime(year, month, day, hour=0, minute=0, second=0, microsecond=0, tzinfo=None, *, fold=0)
+# someday = datetime(1997, 3, 19)
+# print(someday.weekday())
+# print(someday.isoweekday())
+
+day1 = datetime(2021, 11, 5, 14, 0, 0, 0)
+day2 = datetime(2021, 11, 5, 16, 30, 0, 0)
+diff = day2 - day1
+print(diff)
