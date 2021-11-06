@@ -20,3 +20,4 @@ except Exception as e:
         print("Some Error While logging the error \n Please contact developer with the screenshot")
 finally:
     print("END OF THE CODE")
+
