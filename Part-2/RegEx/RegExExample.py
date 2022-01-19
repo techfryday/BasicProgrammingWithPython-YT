@@ -31,7 +31,7 @@ for i in re.finditer("[0-9]+", line):
     print(i.group())
 
 
-# Real-time Example
+# Real-time Example - 1
 
 txt=input("Enter your email: ")
 print("Is is an email? ")
@@ -43,6 +43,11 @@ if isEmail:
     print("Yes it is!")
 else:
     print("No its not!")
+    
+# Real-time Example - 2
+str = "1,Sagar Mahajan,+91-9910102030,+91-9950302010"
+isPhone = re.findall("\+[0-9]{2,2}-[0-9]{10,10}", str)
+print(isPhone)
     
     
 # https://docs.python.org/3/howto/regex.html#regex-howto
